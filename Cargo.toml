@@ -64,7 +64,7 @@ crossbeam = "0.8"
 ctrlc = { version = "3.0", features = ["termination"] }
 ecolor = "0.21.0"
 eframe = { version = "0.21.3", default-features = false }
-egui = { version = "0.21.0", features = ["extra_debug_asserts", "log"] }
+egui = { version = "0.21.0", features = ["extra_debug_asserts"] }
 egui_extras = { version = "0.21.0", features = ["log"] }
 egui_tiles = { git = "https://github.com/rerun-io/egui_tiles", rev = "cd85328bc727ec9cd25d2e52583ec4ec2cff1381" }
 egui-wgpu = "0.21.0"
